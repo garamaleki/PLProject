@@ -1,0 +1,5 @@
+fact = func(a){
+if a == 0 then return 1 else b = fact(a - 1); return b * a endif
+};
+b = fact(4);
+return b
